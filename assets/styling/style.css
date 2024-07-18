@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+head, body {
+  margin: 0;
+  padding: 0;
+}
+
+.top-bar-section {
+  height: 30px;
+  display: block;
+  background-color: white;
+}
+
+.notification-bar-section {
+  display: block;
+  width: 100%;
+  background-image: linear-gradient(to right, yellow, orange);
+  text-align: center;
+  height: 30px;
+  justify-content: center;
+}
+
+.left-bar-section {
+  width: 30%;
+  height: 100vh;
+  min-width: 300px;
+  background-color: whitesmoke;
+  float: right;
+}
+
+.main-area-container {
+  margin-left: 30px;
+  height: 30px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-section {
+  width: 70%;
+  min-width: 500px;
+  height: 100vh;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.top-bar-section .h1 {
+  color: black;
+  float: left;
+  font-family: "Times New Roman", Times, serif;
+  margin: 3px;
+  font-size: 20px;
+  margin-left: 7px;
+}
+.top-bar-section .h4 {
+  margin-right: 100px;
+  float: right;
+  margin: 5px;
+}
+.top-bar-section .search-box {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.top-bar-section .search-box input[type=text] {
+  margin-left: 50px;
+  margin: 5px;
+  width: 100px;
+  height: 25px;
+}
+
+.notification-bar-section .link {
+  color: black;
+}
+
+.left-bar-section .list {
+  float: left;
+  margin: 20px 0 0 20px;
+}
+.left-bar-section .section {
+  display: flex;
+  margin-top: 50px;
+  position: absolute;
+}
+.left-bar-section .name {
+  margin-left: 30px;
+}
+.left-bar-section .li1 {
+  margin: 0 3px;
+  position: relative;
+  padding: 5px;
+  list-style-type: none;
+}
+.left-bar-section .h3 {
+  color: green;
+}
+.left-bar-section .box {
+  display: flex;
+  margin-top: 300px;
+  position: absolute;
+  margin-left: 30px;
+}
+.left-bar-section .writting {
+  height: 150px;
+  width: 200px;
+  background-color: lightskyblue;
+  margin: 70px 0 0 3px;
+  position: relative;
+  padding: 10px;
+  border-radius: 8px;
+}
+.left-bar-section .exit {
+  float: right;
+}
+
+.main-area-container nav {
+  margin-top: 10px;
+  padding: 0;
+}
+.main-area-container nav ul {
+  text-align: center;
+}
+.main-area-container nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.content-section .ethernet {
+  float: right;
+  width: 80px;
+  height: 80px;
+}
+.content-section .li {
+  list-style-type: none;
+}
+.content-section .text {
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
