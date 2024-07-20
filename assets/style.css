@@ -10,9 +10,9 @@ head, body {
 }
 
 .top-bar-section {
-    height: 80px;
+    height: 30px;
     display: block;
-    background-color: yellow;
+    background-color: white;
 }
 
 .notification-bar-section {
@@ -24,7 +24,7 @@ head, body {
 .main-area-container {
     display: flex;
     margin: 0 150px;
-    background-color: lightcoral;
+    background-color: white;
     min-height: 100px;
 }
 
@@ -35,7 +35,7 @@ head, body {
     background-color: aqua;
 }
 
-.left-bar-section {
+.right-bar-section {
     width: 30%;
     height: 100px;
     min-width: 300px;
